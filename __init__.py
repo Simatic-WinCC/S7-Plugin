@@ -7,7 +7,7 @@
 
 #  Copyright 2014 Version-1    Dominik Lott        dominik.lott@tresch-automation.de
 #
-#  Copyright 2015 Version-2   Frank Weber                          simatic-man@web.de
+#  Copyright 2015 Version-2     Frank Weber                       simatic-man@web.de
 #
 ####################################################################################
 #
@@ -51,15 +51,17 @@
 #
 #
 # s7_send
-# You could specify one or more group addresses to send updates to. Item update will only be sent if the item is not changed via KNX.
+# You could specify one or more group addresses to send updates to. Item update will only be sent if the item is not changed.
 #
 #
-# s7_read
-# You could specify one or more group addresses to monitor for changes.
+# s7_read_s
+# You could specify one or more group addresses to monitor for changes. cirle slow
 #
-# s7_init
-# If you set this attribute, SmartHome.py sends a read request to specified group address at startup and set the value of the item to the response.
-# It implies 'knx_listen'.
+#
+# s7_read_f
+# You could specify one or more group addresses to monitor for changes. cirle fast
+#
+#
 #
 #
 # Example
