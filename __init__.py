@@ -55,11 +55,11 @@
 #
 #
 # s7_read_s
-# You could specify one or more group addresses to monitor for changes. cirle slow
+# You could specify one or more group addresses to monitor for changes. cycle slow
 #
 #
 # s7_read_f
-# You could specify one or more group addresses to monitor for changes. cirle fast
+# You could specify one or more group addresses to monitor for changes. cycle fast
 #
 #
 #
@@ -91,7 +91,7 @@
 #   	 sqlite = yes
 #        s7_dpt = 5
 #        s7_send = 42/4
-#        s7_read_s = 42/4       / slow read cirlce
+#        s7_read_s = 42/4       / slow read cycle
 #
 #
 #
@@ -105,7 +105,7 @@
 #   	 sqlite = yes
 #        s7_dpt = 6
 #        s7_send = 42/6
-#        s7_read_f = 42/6      / fast read cirlce
+#        s7_read_f = 42/6      / fast read cycle
 #
 #
 #
